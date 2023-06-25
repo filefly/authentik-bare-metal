@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# NPM missing as dependency???
+
 cd /opt/authentik/src/website
 npm i
 npm run build-docs-only
