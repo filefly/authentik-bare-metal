@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # NPM missing as dependency???
+# Debian installed NPM causes issues, investigate why NPM not installed as part of source earlier
 
 cd /opt/authentik/src/website
 npm i
