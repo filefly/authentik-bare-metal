@@ -17,7 +17,7 @@ source .venv/bin/activate
 export POETRY_VIRTUALENVS_PREFER_ACTIVE_PYTHON=true
 
 # Create export of PIP compatible dependencies
-pip install --no-cache-dir poetry gunicorn psycopg
+pip install --no-cache-dir poetry gunicorn psycopg structlog pyyaml django
 poetry export --without-hashes -f requirements.txt --output requirements.txt
 poetry export --without-hashes -f requirements.txt --with dev --output requirements-dev.txt
 
