@@ -18,9 +18,10 @@ chmod +x /usr/bin/yq
 
 # Install NodeJS 18
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt-get install -y nodejs
+apt install -y nodejs
 
 # Install Go 1.19
-wget https://golang.org/dl/go1.19.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.19.linux-amd64.tar.gz
-rm -rf go1.19.linux-amd64.tar.gz
+#wget https://golang.org/dl/go1.19.linux-amd64.tar.gz
+#sudo tar -C /usr/local -xzf go1.19.linux-amd64.tar.gz
+#rm -rf go1.19.linux-amd64.tar.gz
+apt install golang
