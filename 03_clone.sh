@@ -14,6 +14,8 @@ cd /opt/authentik/src/
 python3.12 -m venv ./.venv
 source .venv/bin/activate
 
+export POETRY_VIRTUALENVS_PREFER_ACTIVE_PYTHON=true
+
 # Create export of PIP compatible dependencies
 pip install --no-cache-dir poetry
 poetry export -f requirements.txt --output requirements.txt
