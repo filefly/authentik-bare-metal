@@ -11,7 +11,7 @@ git clone --depth 1 https://github.com/goauthentik/authentik.git src
 cd /opt/authentik/src/
 
 # Create Python virtual environment
-python3.11 -m virtualenv ./.venv
+python3.12 -m venv ./.venv
 source .venv/bin/activate
 
 # Create export of PIP compatible dependencies
