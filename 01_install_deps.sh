@@ -2,7 +2,7 @@ STARTING_DIR=$(pwd)
 
 apt update && apt upgrade -yqq # Ensure up-to-date system
 apt install -yqq curl wget git build-essential libncursesw5-dev libssl-dev \
-     libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev pkg-config libffi-dev zlib1g-dev libxmlsec1 libxmlsec1-dev libxmlsec1-openssl libmaxminddb0 postgresql postgresql-contrib # Install build dependencies
+     libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev pkg-config libffi-dev zlib1g-dev libxmlsec1 libxmlsec1-dev libxmlsec1-openssl libmaxminddb0 postgresql postgresql-contrib redis # Install build dependencies
 
 wget https://github.com/mikefarah/yq/releases/download/v4.30.8/yq_linux_amd64 -O /usr/bin/yq
 chmod +x /usr/bin/yq
