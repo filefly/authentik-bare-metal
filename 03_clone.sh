@@ -18,8 +18,8 @@ export POETRY_VIRTUALENVS_PREFER_ACTIVE_PYTHON=true
 
 # Create export of PIP compatible dependencies
 pip install --no-cache-dir poetry
-poetry export -f requirements.txt --output requirements.txt
-poetry export -f requirements.txt --with dev --output requirements-dev.txt
+poetry export --without-hashes -f requirements.txt --output requirements.txt
+poetry export --without-hashes -f requirements.txt --with dev --output requirements-dev.txt
 
 # Install dependencies
 # Error to investigate
