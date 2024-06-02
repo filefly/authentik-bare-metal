@@ -7,14 +7,14 @@ sudo apt install -yqq curl wget git build-essential libncursesw5-dev libssl-dev 
 wget https://github.com/mikefarah/yq/releases/download/v4.30.8/yq_linux_amd64 -O /usr/bin/yq
 chmod +x /usr/bin/yq
 
-wget https://www.python.org/ftp/python/3.11.1/Python-3.11.1.tgz
-tar xzf Python-3.11.1.tgz 
-cd Python-3.11.1
-./configure --enable-optimizations
-sudo make altinstall # Install Python 3.11.1
+#wget https://www.python.org/ftp/python/3.11.1/Python-3.11.1.tgz
+#tar xzf Python-3.11.1.tgz 
+#cd Python-3.11.1
+#./configure --enable-optimizations
+#sudo make altinstall # Install Python 3.11.1
 
-cd $STARTING_DIR
-rm -rf Python-3.11.1.tgz Python-3.11.1
+#cd $STARTING_DIR
+#rm -rf Python-3.11.1.tgz Python-3.11.1
 
 # Install NodeJS 18
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
