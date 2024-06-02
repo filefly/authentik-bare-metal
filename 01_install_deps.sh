@@ -17,7 +17,7 @@ chmod +x /usr/bin/yq
 #rm -rf Python-3.11.1.tgz Python-3.11.1
 
 # Install NodeJS 18
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 apt install -y nodejs
 
 # Install Go 1.19
