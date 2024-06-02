@@ -5,7 +5,7 @@
 
 cd /opt/authentik/src/website
 npm i
-npm run build-docs-only
+npm run build
 
 cd /opt/authentik/src/web
 npm i
